@@ -15,7 +15,7 @@ go test ./...
 | :white_check_mark: | Top K Frequent Elements | https://leetcode.com/problems/top-k-frequent-elements/
 | :white_check_mark: | Product of Array Except Self | https://leetcode.com/problems/product-of-array-except-self/
 | :white_check_mark: | Valid Sudoku | https://leetcode.com/problems/valid-sudoku/
-| :x: | Encode and Decode Strings  | https://leetcode.com/problems/encode-and-decode-strings/
+| :lock: | Encode and Decode Strings  | https://leetcode.com/problems/encode-and-decode-strings/
 | :white_check_mark: | Longest Consecutive Sequence | https://leetcode.com/problems/longest-consecutive-sequence/
 | :white_check_mark: | Valid Palindrome | https://leetcode.com/problems/valid-palindrome/
 | :white_check_mark: | Two Sum II Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/

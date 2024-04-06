@@ -1,4 +1,4 @@
-package groupanagrams_test
+package group_anagrams_test
 
 import (
 	"testing"

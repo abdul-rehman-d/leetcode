@@ -1,9 +1,9 @@
-package isvalidsudoku_test
+package is_valid_sudoku_test
 
 import (
 	"testing"
 
-	"github.com/abdul-rehman-d/leetcode/internal/isvalidsudoku"
+	"github.com/abdul-rehman-d/leetcode/internal/is_valid_sudoku"
 )
 
 func TestMain(t *testing.T) {
@@ -34,7 +34,7 @@ func TestMain(t *testing.T) {
 	outputs := [2]bool{true, false}
 
 	for idx, input := range inputs {
-		result := isvalidsudoku.IsValidSudoku(input)
+		result := is_valid_sudoku.IsValidSudoku(input)
 		if result != outputs[idx] {
 			t.Logf("\nInput: %v\nExpected: %v\nActual: %v", input, outputs[idx], result)
 			t.Fail()

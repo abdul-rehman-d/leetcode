@@ -1,9 +1,9 @@
-package topkfrequent_test
+package top_k_frequent_elements_test
 
 import (
 	"testing"
 
-	"github.com/abdul-rehman-d/leetcode/internal/topkfrequent"
+	"github.com/abdul-rehman-d/leetcode/internal/top_k_frequent_elements"
 )
 
 func areArrsSame(arr1, arr2 []int) bool {
@@ -43,7 +43,7 @@ func TestMain(t *testing.T) {
 	}
 
 	for idx, input := range inputs {
-		result := topkfrequent.TopKFrequent(input.Arr, input.K)
+		result := top_k_frequent_elements.TopKFrequent(input.Arr, input.K)
 		if !areArrsSame(result, outputs[idx]) {
 			t.Logf("\nInput: %v\nExpected: %v\nActual: %v", input, outputs[idx], result)
 			t.Fail()

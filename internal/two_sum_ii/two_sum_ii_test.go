@@ -1,9 +1,9 @@
-package twosumii_test
+package two_sum_ii_test
 
 import (
 	"testing"
 
-	"github.com/abdul-rehman-d/leetcode/internal/twosumii"
+	"github.com/abdul-rehman-d/leetcode/internal/two_sum_ii"
 )
 
 func areArrsSame(arr1, arr2 []int) bool {
@@ -47,7 +47,7 @@ func TestMain(t *testing.T) {
 	}
 
 	for idx, input := range inputs {
-		result := twosumii.TwoSum(input.Arr, input.Target)
+		result := two_sum_ii.TwoSum(input.Arr, input.Target)
 		if !areArrsSame(result, outputs[idx]) {
 			t.Logf("\nInput: %v\nExpected: %v\nActual: %v", input, outputs[idx], result)
 			t.Fail()

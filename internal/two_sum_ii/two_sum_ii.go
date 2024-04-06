@@ -1,4 +1,4 @@
-package twosumii
+package two_sum_ii
 
 func TwoSum(numbers []int, target int) []int {
 	lp := 0

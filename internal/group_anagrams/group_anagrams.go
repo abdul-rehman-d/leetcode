@@ -1,4 +1,4 @@
-package groupanagrams
+package group_anagrams
 
 type counter [26]int
 

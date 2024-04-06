@@ -1,4 +1,4 @@
-package isvalidsudoku
+package is_valid_sudoku
 
 func IsValidSudoku(board [][]byte) bool {
 	var rowfreq [9][9]bool

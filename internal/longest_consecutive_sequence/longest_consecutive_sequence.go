@@ -1,4 +1,4 @@
-package longestconsecutive
+package longest_consecutive_sequence
 
 func LongestConsecutive(nums []int) int {
 	set := make(map[int]bool, len(nums))

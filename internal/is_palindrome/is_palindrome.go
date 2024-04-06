@@ -1,4 +1,4 @@
-package ispalindrome
+package is_palindrome
 
 import (
 	"unicode"

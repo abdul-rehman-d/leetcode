@@ -1,9 +1,9 @@
-package longestconsecutive_test
+package longest_consecutive_sequence_test
 
 import (
 	"testing"
 
-	"github.com/abdul-rehman-d/leetcode/internal/longestconsecutive"
+	"github.com/abdul-rehman-d/leetcode/internal/longest_consecutive_sequence"
 )
 
 func TestMain(t *testing.T) {
@@ -14,7 +14,7 @@ func TestMain(t *testing.T) {
 	outputs := [2]int{4, 9}
 
 	for idx, input := range inputs {
-		result := longestconsecutive.LongestConsecutive(input)
+		result := longest_consecutive_sequence.LongestConsecutive(input)
 		if result != outputs[idx] {
 			t.Logf("\nInput: %v\nExpected: %v\nActual: %v", input, outputs[idx], result)
 			t.Fail()

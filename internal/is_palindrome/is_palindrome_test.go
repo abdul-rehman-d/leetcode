@@ -1,9 +1,9 @@
-package ispalindrome_test
+package is_palindrome_test
 
 import (
 	"testing"
 
-	"github.com/abdul-rehman-d/leetcode/internal/ispalindrome"
+	"github.com/abdul-rehman-d/leetcode/internal/is_palindrome"
 )
 
 func TestMain(t *testing.T) {
@@ -15,7 +15,7 @@ func TestMain(t *testing.T) {
 	outputs := [3]bool{true, false, true}
 
 	for idx, input := range inputs {
-		result := ispalindrome.IsPalindrome(input)
+		result := is_palindrome.IsPalindrome(input)
 		if result != outputs[idx] {
 			t.Logf("\nInput: %v\nExpected: %v\nActual: %v", input, outputs[idx], result)
 			t.Fail()

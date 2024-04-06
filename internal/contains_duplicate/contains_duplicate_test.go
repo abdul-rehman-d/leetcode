@@ -1,9 +1,9 @@
-package containsduplicate_test
+package contains_duplicate_test
 
 import (
 	"testing"
 
-	"github.com/abdul-rehman-d/leetcode/internal/containsduplicate"
+	"github.com/abdul-rehman-d/leetcode/internal/contains_duplicate"
 )
 
 func TestMain(t *testing.T) {
@@ -15,7 +15,7 @@ func TestMain(t *testing.T) {
 	outputs := [3]bool{true, false, true}
 
 	for idx, input := range inputs {
-		result := containsduplicate.ContainsDuplicate(input)
+		result := contains_duplicate.ContainsDuplicate(input)
 		if result != outputs[idx] {
 			t.Logf("\nInput: %v\nExpected: %v\nActual: %v", input, outputs[idx], result)
 			t.Fail()

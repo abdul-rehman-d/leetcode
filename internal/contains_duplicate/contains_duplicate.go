@@ -1,4 +1,4 @@
-package containsduplicate
+package contains_duplicate
 
 func ContainsDuplicate(nums []int) bool {
 	mapp := make(map[int]bool, len(nums))

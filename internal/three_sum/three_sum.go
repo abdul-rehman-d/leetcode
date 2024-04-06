@@ -1,4 +1,4 @@
-package threesum
+package three_sum
 
 import (
 	"slices"

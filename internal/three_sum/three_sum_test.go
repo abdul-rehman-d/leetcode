@@ -1,9 +1,9 @@
-package threesum_test
+package three_sum_test
 
 import (
 	"testing"
 
-	"github.com/abdul-rehman-d/leetcode/internal/threesum"
+	"github.com/abdul-rehman-d/leetcode/internal/three_sum"
 )
 
 func same2(a, b []int) bool {
@@ -43,7 +43,7 @@ func TestMain(t *testing.T) {
 	}
 
 	for idx, input := range inputs {
-		actual := threesum.ThreeSum(input)
+		actual := three_sum.ThreeSum(input)
 	
 		if !same1(actual, outputs[idx]) {
 			t.Logf("\nInput: %v\nExpected: %v\nActual: %v", input, outputs[idx], actual)

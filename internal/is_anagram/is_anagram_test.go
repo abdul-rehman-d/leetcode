@@ -1,9 +1,9 @@
-package isanagram_test
+package is_anagram_test
 
 import (
 	"testing"
 
-	"github.com/abdul-rehman-d/leetcode/internal/isanagram"
+	"github.com/abdul-rehman-d/leetcode/internal/is_anagram"
 )
 
 func TestMain(t *testing.T) {
@@ -14,7 +14,7 @@ func TestMain(t *testing.T) {
 	outputs := [2]bool{true, false}
 
 	for idx, input := range inputs {
-		result := isanagram.IsAnagram(input[0], input[1])
+		result := is_anagram.IsAnagram(input[0], input[1])
 		if result != outputs[idx] {
 			t.Logf("\nInput: %v\nExpected: %v\nActual: %v", input, outputs[idx], result)
 			t.Fail()

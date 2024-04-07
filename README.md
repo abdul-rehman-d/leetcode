@@ -21,7 +21,7 @@ go test ./...
 | :white_check_mark: | Two Sum II Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 | :white_check_mark: | 3Sum | https://leetcode.com/problems/3sum/
 | :white_check_mark: | Container With Most Water | https://leetcode.com/problems/container-with-most-water/
-| :x: | Trapping Rain Water | https://leetcode.com/problems/trapping-rain-water/
+| :white_check_mark: | Trapping Rain Water | https://leetcode.com/problems/trapping-rain-water/
 | :x: | Best Time to Buy And Sell Stock | https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 | :x: | Longest Substring Without Repeating Characters | https://leetcode.com/problems/longest-substring-without-repeating-characters/
 | :x: | Longest Repeating Character Replacement | https://leetcode.com/problems/longest-repeating-character-replacement/

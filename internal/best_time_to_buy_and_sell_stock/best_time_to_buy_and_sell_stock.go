@@ -5,13 +5,13 @@ func MaxProfit(prices []int) int {
     profit := 0
 
     for start < end && end < len(prices) {
-        curr := prices[end] - prices[start]
-
-        if curr > profit {
-            profit = curr
-        }
-
         if prices[start] < prices[end] {
+            curr := prices[end] - prices[start]
+
+            if curr > profit {
+                profit = curr
+            }
+
             end++
         } else {
             start=end

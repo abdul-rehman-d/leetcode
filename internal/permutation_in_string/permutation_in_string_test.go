@@ -7,12 +7,13 @@ import (
 )
 
 func TestMain(t *testing.T) {
-	inputs := [3][2]string{
+	inputs := [4][2]string{
 		{"ab", "eidbaooo"},
 		{"ab", "eidboaoo"},
-        {"abc", "dcba"},
+		{"abc", "dcba"},
+		{"abc", "bbbca"},
 	}
-	outputs := [3]bool{true, false, true}
+	outputs := [4]bool{true, false, true, true}
 
 	for idx, input := range inputs {
 		result := permutation_in_string.CheckInclusion(input[0], input[1])
@@ -22,4 +23,3 @@ func TestMain(t *testing.T) {
 		}
 	}
 }
-

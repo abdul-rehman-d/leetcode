@@ -13,7 +13,7 @@ go test ./...
 | :white_check_mark: | Two Sum | https://leetcode.com/problems/two-sum/
 | :white_check_mark: | Group Anagrams | https://leetcode.com/problems/group-anagrams/
 | :white_check_mark: | Top K Frequent Elements | https://leetcode.com/problems/top-k-frequent-elements/
-| :x: | Product of Array Except Self | https://leetcode.com/problems/product-of-array-except-self/
+| :white_check_mark: | Product of Array Except Self | https://leetcode.com/problems/product-of-array-except-self/
 | :white_check_mark: | Valid Sudoku | https://leetcode.com/problems/valid-sudoku/
 | :lock: | Encode and Decode Strings  | https://leetcode.com/problems/encode-and-decode-strings/
 | :white_check_mark: | Longest Consecutive Sequence | https://leetcode.com/problems/longest-consecutive-sequence/

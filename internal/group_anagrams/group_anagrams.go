@@ -11,7 +11,7 @@ func GroupAnagrams(strs []string) [][]string {
 	for _, str := range strs {
 		key := counter{}
 		for _, ch := range str {
-			key[ch - a]++
+			key[ch-a]++
 		}
 		if _, has := mapp[key]; has {
 			out[mapp[key]] = append(out[mapp[key]], str)
@@ -23,4 +23,3 @@ func GroupAnagrams(strs []string) [][]string {
 
 	return out
 }
-

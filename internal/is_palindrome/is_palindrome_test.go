@@ -7,7 +7,7 @@ import (
 )
 
 func TestMain(t *testing.T) {
-	inputs := [3]string {
+	inputs := [3]string{
 		"A man, a plan, a canal: Panama",
 		"race a car",
 		" ",
@@ -22,4 +22,3 @@ func TestMain(t *testing.T) {
 		}
 	}
 }
-

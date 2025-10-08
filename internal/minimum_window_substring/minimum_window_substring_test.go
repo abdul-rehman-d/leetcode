@@ -6,7 +6,6 @@ import (
 	"github.com/abdul-rehman-d/leetcode/internal/minimum_window_substring"
 )
 
-
 func TestMain(t *testing.T) {
 	inputs := [3][2]string{
 		{"ADOBECODEBANC", "ABC"},
@@ -23,4 +22,3 @@ func TestMain(t *testing.T) {
 		}
 	}
 }
-

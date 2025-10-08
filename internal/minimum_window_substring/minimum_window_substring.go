@@ -3,9 +3,9 @@ package minimum_window_substring
 import "fmt"
 
 func MinWindow(s string, t string) string {
-    if len(t) > len(s) {
-        return ""
-    }
+	if len(t) > len(s) {
+		return ""
+	}
 
 	solutionStart := -1
 	solutionEnd := -1
@@ -17,12 +17,12 @@ func MinWindow(s string, t string) string {
 	have := 0
 
 	for idx := range t {
-        if _, has := tFreq[t[idx]]; has {
-            tFreq[t[idx]]++
-            continue
-        }
-        tFreq[t[idx]] = 1
-        need++
+		if _, has := tFreq[t[idx]]; has {
+			tFreq[t[idx]]++
+			continue
+		}
+		tFreq[t[idx]] = 1
+		need++
 	}
 
 	fmt.Println(tFreq)

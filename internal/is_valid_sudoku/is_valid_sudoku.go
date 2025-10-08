@@ -26,7 +26,7 @@ func IsValidSudoku(board [][]byte) bool {
 			colfreq[x][cell] = true
 
 			// block check
-			key := (y/3 * 3) + x/3
+			key := (y / 3 * 3) + x/3
 			if freq3x3[key][cell] {
 				return false
 			}
@@ -35,4 +35,3 @@ func IsValidSudoku(board [][]byte) bool {
 	}
 	return true
 }
-

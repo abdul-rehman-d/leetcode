@@ -10,13 +10,13 @@ func ThreeSum(nums []int) [][]int {
 	res := [][]int{}
 
 	for a := 0; a < len(nums)-2; a++ {
-		if a > 0 && nums[a-1]==nums[a] {
+		if a > 0 && nums[a-1] == nums[a] {
 			continue
 		}
-		b := a+1
-		c := len(nums) -1
+		b := a + 1
+		c := len(nums) - 1
 		for b < c && a < b && c < len(nums) && b < len(nums) {
-			sum := nums[a] +nums[b] + nums[c]
+			sum := nums[a] + nums[b] + nums[c]
 			if sum < 0 {
 				b++
 			} else if sum > 0 {
@@ -37,4 +37,3 @@ func ThreeSum(nums []int) [][]int {
 
 	return res
 }
-

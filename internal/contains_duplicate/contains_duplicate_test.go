@@ -8,9 +8,9 @@ import (
 
 func TestMain(t *testing.T) {
 	inputs := [3][]int{
-		{1,2,3,1},
-		{1,2,3,4},
-		{1,1,1,3,3,4,3,2,4,2},
+		{1, 2, 3, 1},
+		{1, 2, 3, 4},
+		{1, 1, 1, 3, 3, 4, 3, 2, 4, 2},
 	}
 	outputs := [3]bool{true, false, true}
 
@@ -22,4 +22,3 @@ func TestMain(t *testing.T) {
 		}
 	}
 }
-

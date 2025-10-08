@@ -9,7 +9,7 @@ func LongestConsecutive(nums []int) int {
 
 	highest := 0
 	for _, num := range nums {
-		if !set[num - 1] {
+		if !set[num-1] {
 			count := 1
 			for set[num+count] {
 				count += 1
@@ -22,4 +22,3 @@ func LongestConsecutive(nums []int) int {
 
 	return highest
 }
-

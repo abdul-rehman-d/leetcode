@@ -11,9 +11,9 @@ func TestMain(t *testing.T) {
 		"abcabcbb",
 		"bbbbb",
 		"pwwkew",
-        "dvdf",
+		"dvdf",
 	}
-	outputs := [4]int{3, 1, 3,3}
+	outputs := [4]int{3, 1, 3, 3}
 
 	for idx, input := range inputs {
 		result := longest_substring_without_repeating_characters.LengthOfLongestSubstring(input)

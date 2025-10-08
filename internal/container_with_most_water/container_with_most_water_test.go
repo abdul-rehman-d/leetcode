@@ -8,10 +8,10 @@ import (
 
 func TestMain(t *testing.T) {
 	inputs := [2][]int{
-        {1,8,6,2,5,4,8,3,7},
-        {1,1},
+		{1, 8, 6, 2, 5, 4, 8, 3, 7},
+		{1, 1},
 	}
-	outputs := [2]int{49,1}
+	outputs := [2]int{49, 1}
 
 	for idx, input := range inputs {
 		result := container_with_most_water.MaxArea(input)
@@ -21,4 +21,3 @@ func TestMain(t *testing.T) {
 		}
 	}
 }
-

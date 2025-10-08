@@ -32,23 +32,22 @@ func same1(a, b [][]int) bool {
 
 func TestMain(t *testing.T) {
 	inputs := [3][]int{
-		{-1,0,1,2,-1,-4},
-		{0,1,1},
-		{0,0,0},
+		{-1, 0, 1, 2, -1, -4},
+		{0, 1, 1},
+		{0, 0, 0},
 	}
 	outputs := [3][][]int{
-		{{-1,-1,2},{-1,0,1}},
+		{{-1, -1, 2}, {-1, 0, 1}},
 		{},
-		{{0,0,0}},
+		{{0, 0, 0}},
 	}
 
 	for idx, input := range inputs {
 		actual := three_sum.ThreeSum(input)
-	
+
 		if !same1(actual, outputs[idx]) {
 			t.Logf("\nInput: %v\nExpected: %v\nActual: %v", input, outputs[idx], actual)
 			t.Fail()
 		}
 	}
 }
-

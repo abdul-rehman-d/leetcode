@@ -30,15 +30,15 @@ func areArrsSame(arr1, arr2 []int) bool {
 }
 
 func TestMain(t *testing.T) {
-	inputs := [2]struct{
-		Arr []int;
-		K int;
+	inputs := [2]struct {
+		Arr []int
+		K   int
 	}{
-		{Arr: []int{1,1,1,2,2,3}, K: 2},
+		{Arr: []int{1, 1, 1, 2, 2, 3}, K: 2},
 		{Arr: []int{1}, K: 1},
 	}
 	outputs := [2][]int{
-		{1,2},
+		{1, 2},
 		{1},
 	}
 
@@ -50,4 +50,3 @@ func TestMain(t *testing.T) {
 		}
 	}
 }
-

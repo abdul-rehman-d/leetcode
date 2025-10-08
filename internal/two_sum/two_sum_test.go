@@ -30,18 +30,18 @@ func areArrsSame(arr1, arr2 []int) bool {
 }
 
 func TestMain(t *testing.T) {
-	inputs := [3]struct{
-		Arr []int;
-		Target int;
+	inputs := [3]struct {
+		Arr    []int
+		Target int
 	}{
-		{Arr: []int{2,7,11,15}, Target: 9},
-		{Arr: []int{3,2,4}, Target: 6},
-		{Arr: []int{3,3}, Target: 6},
+		{Arr: []int{2, 7, 11, 15}, Target: 9},
+		{Arr: []int{3, 2, 4}, Target: 6},
+		{Arr: []int{3, 3}, Target: 6},
 	}
 	outputs := [3][]int{
-		{0,1},
-		{1,2},
-		{0,1},
+		{0, 1},
+		{1, 2},
+		{0, 1},
 	}
 
 	for idx, input := range inputs {
@@ -52,4 +52,3 @@ func TestMain(t *testing.T) {
 		}
 	}
 }
-

@@ -29,7 +29,7 @@ go test ./...
 | :white_check_mark: | Minimum Window Substring | https://leetcode.com/problems/minimum-window-substring/
 | :white_check_mark: | Sliding Window Maximum | https://leetcode.com/problems/sliding-window-maximum/
 | :white_check_mark: | Valid Parentheses | https://leetcode.com/problems/valid-parentheses/
-| :x: | Min Stack | https://leetcode.com/problems/min-stack/
+| :white_check_mark: | Min Stack | https://leetcode.com/problems/min-stack/
 | :x: | Evaluate Reverse Polish Notation | https://leetcode.com/problems/evaluate-reverse-polish-notation/
 | :x: | Generate Parentheses | https://leetcode.com/problems/generate-parentheses/
 | :x: | Daily Temperatures | https://leetcode.com/problems/daily-temperatures/

@@ -31,8 +31,8 @@ go test ./...
 | :white_check_mark: | Valid Parentheses | https://leetcode.com/problems/valid-parentheses/
 | :white_check_mark: | Min Stack | https://leetcode.com/problems/min-stack/
 | :white_check_mark: | Evaluate Reverse Polish Notation | https://leetcode.com/problems/evaluate-reverse-polish-notation/
-| ::white_check_mark: | Daily Temperatures | https://leetcode.com/problems/daily-temperatures/
-| :x: | Car Fleet | https://leetcode.com/problems/car-fleet/
+| :white_check_mark: | Daily Temperatures | https://leetcode.com/problems/daily-temperatures/
+| :white_check_mark: | Car Fleet | https://leetcode.com/problems/car-fleet/
 | :x: | Largest Rectangle In Histogram | https://leetcode.com/problems/largest-rectangle-in-histogram/
 | :x: | Binary Search | https://leetcode.com/problems/binary-search/
 | :x: | Search a 2D Matrix | https://leetcode.com/problems/search-a-2d-matrix/

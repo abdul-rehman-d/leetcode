@@ -1,17 +1,12 @@
-package core
+package binary_search
 
-import "fmt"
-
-// binary search
-func BinarySearch(sortedArr []int, target int) int {
+func BinarySearch(nums []int, target int) int {
 	start := 0
-	end := len(sortedArr) - 1
+	end := len(nums) - 1
 
 	for start <= end {
-		fmt.Println(sortedArr[start:end])
 		middleIdx := start + ((end - start) / 2)
-		middle := sortedArr[middleIdx]
-		fmt.Println(middle)
+		middle := nums[middleIdx]
 
 		if middle == target {
 			return middleIdx

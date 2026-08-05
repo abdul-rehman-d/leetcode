@@ -33,8 +33,8 @@ go test ./...
 | :white_check_mark: | Evaluate Reverse Polish Notation | https://leetcode.com/problems/evaluate-reverse-polish-notation/
 | :white_check_mark: | Daily Temperatures | https://leetcode.com/problems/daily-temperatures/
 | :white_check_mark: | Car Fleet | https://leetcode.com/problems/car-fleet/
-| :x: | Largest Rectangle In Histogram | https://leetcode.com/problems/largest-rectangle-in-histogram/
-| :x: | Binary Search | https://leetcode.com/problems/binary-search/
+| :white_check_mark: | Largest Rectangle In Histogram | https://leetcode.com/problems/largest-rectangle-in-histogram/
+| :white_check_mark: | Binary Search | https://leetcode.com/problems/binary-search/
 | :x: | Search a 2D Matrix | https://leetcode.com/problems/search-a-2d-matrix/
 | :x: | Koko Eating Bananas | https://leetcode.com/problems/koko-eating-bananas/
 | :x: | Find Minimum In Rotated Sorted Array | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/

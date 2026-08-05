@@ -36,7 +36,7 @@ go test ./...
 | :white_check_mark: | Largest Rectangle In Histogram | https://leetcode.com/problems/largest-rectangle-in-histogram/
 | :white_check_mark: | Binary Search | https://leetcode.com/problems/binary-search/
 | :white_check_mark: | Search a 2D Matrix | https://leetcode.com/problems/search-a-2d-matrix/
-| :x: | Koko Eating Bananas | https://leetcode.com/problems/koko-eating-bananas/
+| :white_check_mark: | Koko Eating Bananas | https://leetcode.com/problems/koko-eating-bananas/
 | :x: | Find Minimum In Rotated Sorted Array | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 | :x: | Search In Rotated Sorted Array | https://leetcode.com/problems/search-in-rotated-sorted-array/
 | :x: | Time Based Key Value Store | https://leetcode.com/problems/time-based-key-value-store/

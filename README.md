@@ -38,7 +38,7 @@ go test ./...
 | :white_check_mark: | Search a 2D Matrix | https://leetcode.com/problems/search-a-2d-matrix/
 | :white_check_mark: | Koko Eating Bananas | https://leetcode.com/problems/koko-eating-bananas/
 | :white_check_mark: | Find Minimum In Rotated Sorted Array | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
-| :x: | Search In Rotated Sorted Array | https://leetcode.com/problems/search-in-rotated-sorted-array/
+| :white_check_mark: | Search In Rotated Sorted Array | https://leetcode.com/problems/search-in-rotated-sorted-array/
 | :x: | Time Based Key Value Store | https://leetcode.com/problems/time-based-key-value-store/
 | :x: | Median of Two Sorted Arrays | https://leetcode.com/problems/median-of-two-sorted-arrays/
 | :x: | Reverse Linked List | https://leetcode.com/problems/reverse-linked-list/

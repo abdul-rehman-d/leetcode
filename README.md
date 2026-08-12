@@ -39,8 +39,8 @@ go test ./...
 | :white_check_mark: | Koko Eating Bananas | https://leetcode.com/problems/koko-eating-bananas/
 | :white_check_mark: | Find Minimum In Rotated Sorted Array | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 | :white_check_mark: | Search In Rotated Sorted Array | https://leetcode.com/problems/search-in-rotated-sorted-array/
-| :x: | Time Based Key Value Store | https://leetcode.com/problems/time-based-key-value-store/
-| :x: | Median of Two Sorted Arrays | https://leetcode.com/problems/median-of-two-sorted-arrays/
+| :white_check_mark: | Time Based Key Value Store | https://leetcode.com/problems/time-based-key-value-store/
+| :white_check_mark: | Median of Two Sorted Arrays | https://leetcode.com/problems/median-of-two-sorted-arrays/
 | :x: | Reverse Linked List | https://leetcode.com/problems/reverse-linked-list/
 | :x: | Merge Two Sorted Lists | https://leetcode.com/problems/merge-two-sorted-lists/
 | :x: | Reorder List | https://leetcode.com/problems/reorder-list/

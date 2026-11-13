@@ -1,6 +1,8 @@
 package reverse_linked_list
 
 import (
+	"strconv"
+	"strings"
 	"testing"
 )
 
@@ -20,6 +22,24 @@ func compareLinkedLists(a, b *ListNode) bool {
 	return a == nil && b == nil
 }
 
+func printLinkedList(a *ListNode) string {
+	var result strings.Builder
+	seen := make(map[*ListNode]bool)
+	for a != nil {
+		if result.Len() > 0 {
+			result.WriteString("->")
+		}
+		if seen[a] {
+			result.WriteString("(cycle)")
+			break
+		}
+		seen[a] = true
+		result.WriteString(strconv.Itoa(a.Val))
+		a = a.Next
+	}
+	return result.String()
+}
+
 func TestMain(t *testing.T) {
 	testCases := []TestCase{
 		{Input: nil, Output: nil},
@@ -35,7 +55,12 @@ func TestMain(t *testing.T) {
 	for _, tc := range testCases {
 		result := ReverseLinkedList(tc.Input)
 		if !compareLinkedLists(result, tc.Output) {
-			t.Logf("\nInput: %+v\nExpected: %+v\nActual: %+v", tc.Input, tc.Output, result)
+			t.Logf(
+				"\nInput: %+v\nExpected: %+v\nActual: %+v",
+				printLinkedList(tc.Input),
+				printLinkedList(tc.Output),
+				printLinkedList(result),
+			)
 			t.Fail()
 		}
 	}

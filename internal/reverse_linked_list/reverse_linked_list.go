@@ -1,23 +1,19 @@
 package reverse_linked_list
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+import "github.com/abdul-rehman-d/leetcode/internal/common"
+
+type ListNode = common.ListNode
 
 func ReverseLinkedList(head *ListNode) *ListNode {
 	var recurse func(*ListNode) *ListNode
 	recurse = func(head *ListNode) *ListNode {
-		if head == nil {
-			return nil
+		if head == nil || head.Next == nil {
+			return head
 		}
-		x := head
-		if head.Next != nil {
-			x = recurse(head.Next)
-			head.Next.Next = head
-		}
+		newHead := recurse(head.Next)
+		head.Next.Next = head
 		head.Next = nil
-		return x
+		return newHead
 	}
 
 	return recurse(head)
